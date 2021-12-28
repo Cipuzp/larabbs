@@ -1,4 +1,3 @@
-
 // Variables
 @import "variables";
 
@@ -6,10 +5,10 @@
 @import "~bootstrap/scss/bootstrap";
 
 // Fontawesome
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
 
 /* universal */
 
@@ -30,8 +29,8 @@ body {
   margin-top: 0px;
 }
 
-.container{
-  .navbar-brand{
+.container {
+  .navbar-brand {
     float: left;
   }
 
@@ -39,7 +38,6 @@ body {
     float: right;
   }
 }
-
 
 /* Sticky footer styles */
 html {
@@ -81,7 +79,6 @@ body {
   }
 }
 
-
 /* User register page */
 .register-page {
   img.captcha {
@@ -92,6 +89,10 @@ body {
   }
 }
 
-.form-group{
+.form-group {
   margin-bottom: 15px;
+}
+
+.form-control {
+  margin-top: 15px;
 }
