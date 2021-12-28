@@ -140,6 +140,18 @@ body {
   }
 }
 
+.list-unstyled {
+  .media {
+    .media-body {
+      margin-top: -50px;
+      margin-left: 35px;
+      .media-heading {
+        margin-left: 35px;
+      }
+    }
+  }
+}
+
 // .media {
 //   display: flex;
 // }

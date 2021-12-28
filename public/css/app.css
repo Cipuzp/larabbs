@@ -17526,6 +17526,14 @@ body {
   border-top: 1px solid #dcebf5;
 }
 
+.list-unstyled .media .media-body {
+  margin-top: -50px;
+  margin-left: 35px;
+}
+.list-unstyled .media .media-body .media-heading {
+  margin-left: 35px;
+}
+
 /* Add container and footer space */
 #app > div.container {
   margin-bottom: 100px;
