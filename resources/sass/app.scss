@@ -156,3 +156,11 @@ body {
 #app > div.container {
   margin-bottom: 100px;
 }
+
+.list-group {
+  .list-group-item {
+    a {
+      text-decoration: none;
+    }
+  }
+}
